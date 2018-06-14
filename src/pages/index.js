@@ -53,7 +53,7 @@ const styles = {
 const IndexPage = ({ data }) => (
   <div>
     <Helmet
-      title="Amulya Pokala..."
+      title="Amulya Pokala"
       meta={[
         {
           name: 'description',
