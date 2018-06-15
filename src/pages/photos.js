@@ -12,7 +12,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { lightBlue900 } from 'material-ui/styles/colors'
 import CardMedia from '@material-ui/core/CardMedia';
-import "typeface-Satisfy";
+import "typeface-acme";
 const handleClick = url => {
     window.open(url)
   }
@@ -33,7 +33,7 @@ const styles = {
         alignItems: "center",
         justifyContent: "center",
         backgroundColor:'white',
-        fontFamily:"Satisy",
+        fontFamily:"acme",
         color:lightBlue900,
         textAlign: "center",
         display: "flex",
