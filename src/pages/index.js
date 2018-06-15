@@ -37,6 +37,13 @@ const styles = {
       card: {
         width: '345px',
     },
+    special:{
+      marginBottom: '200px',
+      float: 'left',
+        marginRight: '20px',
+        marginLeft:'60px',
+        marginTop: '50px',
+    },
     media:{
       height: 0,
       paddingTop: '200px',
@@ -69,7 +76,7 @@ const IndexPage = ({ data }) => (
           content:
             'Amulya Pokala',
         },
-        {
+      {
           name: 'og:description',
           content:
             'A website of Amulya to showcase everything she has got at one place',
@@ -119,7 +126,7 @@ const IndexPage = ({ data }) => (
           
         </CardContent>
         <CardActions>
-          <Link to="/projects/">
+          <Link to="/projects/" style={{textDecoration:'none'}}>
           <Button size="small" color="primary">
             See All
           </Button>
@@ -142,9 +149,11 @@ const IndexPage = ({ data }) => (
           
         </CardContent>
         <CardActions>
+        <Link to="/photos/" style={{textDecoration:'none'}}>
           <Button size="small" color="primary">
             See All
           </Button>
+          </Link>
           
         </CardActions>
       </Card>
@@ -189,7 +198,8 @@ const IndexPage = ({ data }) => (
         </CardActions>
       </Card>
       </div>
-      <div style={styles.floats}><Card style={styles.card}>
+      
+      <div style={styles.special}><Card style={styles.card}>
         <CardMedia
           style={styles.media}
           image="/img/drawing.jpg"
@@ -208,6 +218,7 @@ const IndexPage = ({ data }) => (
           
         </CardActions>
       </Card>
+     
       </div>
 
   

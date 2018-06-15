@@ -27,6 +27,8 @@ const TemplateWrapper = ({ children }) => (
         <div>
           <Nav />
           <div className="container">{children()}</div>
+         
+        
           <Footer />  
         </div>
       </MuiThemeProvider>
