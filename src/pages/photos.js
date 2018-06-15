@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import  {FlatButton}  from 'material-ui'
 import Chip from 'material-ui/Chip'
-import Explore from 'material-ui/svg-icons/action/Explore'
+import Explore from 'material-ui/svg-icons/action/explore'
 import IconButton from 'material-ui/IconButton'
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
