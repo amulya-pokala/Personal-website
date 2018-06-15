@@ -51,7 +51,7 @@ const social_links = [
   },
   {
     title: 'Github',
-    location: '/github.png',
+    location: '/img/github.png',
     url: 'http://github.com/amulya-pokala',
   },
   {
